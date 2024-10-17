@@ -1,10 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
 import Login from './Login/Login';
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 function App() {
   return (
-    <Login></Login>
+    <Router>
+      <Routes>
+        <Route exact path="/" element={<Login />} />
+        {/* <Route exact path="/Dashboard" element={<Dashboard />} /> */}
+      </Routes>
+    </Router>
   );
 }
 
