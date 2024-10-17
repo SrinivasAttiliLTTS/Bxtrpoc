@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/Bxtrpoc/static/css/main.f855e6bc.css",
-    "main.js": "/Bxtrpoc/static/js/main.46424b89.js",
+    "main.css": "/Bxtrpoc/static/css/main.9a1c6410.css",
+    "main.js": "/Bxtrpoc/static/js/main.9de1394b.js",
     "static/js/453.6a0c9b42.chunk.js": "/Bxtrpoc/static/js/453.6a0c9b42.chunk.js",
+    "static/media/bxt_img.png": "/Bxtrpoc/static/media/bxt_img.0ccea1fd460049dbecc2.png",
+    "static/media/copyright.png": "/Bxtrpoc/static/media/copyright.86c9053a14000ec72928.png",
     "static/media/logo.svg": "/Bxtrpoc/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Bxtrpoc/index.html",
-    "main.f855e6bc.css.map": "/Bxtrpoc/static/css/main.f855e6bc.css.map",
-    "main.46424b89.js.map": "/Bxtrpoc/static/js/main.46424b89.js.map",
+    "main.9a1c6410.css.map": "/Bxtrpoc/static/css/main.9a1c6410.css.map",
+    "main.9de1394b.js.map": "/Bxtrpoc/static/js/main.9de1394b.js.map",
     "453.6a0c9b42.chunk.js.map": "/Bxtrpoc/static/js/453.6a0c9b42.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.46424b89.js"
+    "static/css/main.9a1c6410.css",
+    "static/js/main.9de1394b.js"
   ]
 }
