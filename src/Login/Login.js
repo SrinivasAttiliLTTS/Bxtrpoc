@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-// import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "./Login.css";
 import bxt_img from "../resources/bxt_img.png";
 import copyright from "../resources/copyright.png";
@@ -7,14 +7,14 @@ import copyright from "../resources/copyright.png";
 // import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Login() {
-  // const history = useHistory();
+  const history = useNavigate();
   const [email, setActiveTab] = useState("");
 
   const [activePassword, setActivePassword] = useState(0);
 
   const coursesPage = () => {
     if (activePassword) {
-      // history.push("/Dashboard");
+      history("/Dashboard");
     } else {
       setActivePassword(1);
     }
